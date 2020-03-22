@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Fur
+title: T-share
 url: "http://turquoise-rook.cloudvent.net/"
 baseurl:
 google_analytics_key:
@@ -10,10 +10,10 @@ snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5O
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Fur t-shirt store
+description: T-share store
 author:
   name: fur
-  email: fur@example.com
+  email: hola@tshare.com
   twitter: fur # twitter username without the @ symbol
   phone: "+1 23456789"
 social:
