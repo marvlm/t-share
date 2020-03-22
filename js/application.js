@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: 
 ---
 
 {% include_relative _style-picker.js %}

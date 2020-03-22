@@ -1,92 +1,79 @@
-# ----
-# Site
-
+---
 title: T-share
-url: "https://tshare.netlify.com/"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
-
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+timezone: Europe/Madrid
+collections:
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+    _hide_content: true
+    _icon: shopping_cart
+  staff_members:
+    title: Staff Members
+    output: false
+    _hide_content: true
+    _icon: account_circle
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: products
+  values:
+    layout: product
+- scope:
+    path: ''
+  values:
+    layout: page
+- scope:
+    path: index.html
+  values:
+    layout: default
+url: https://tshare.netlify.com/
+baseurl: 
+google_analytics_key: 
+google_maps_javascript_api_key: 
+snipcart_key: NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw
+logo: "/siteicon.png"
 description: T-share store
 author:
   name: fur
   email: hola@tshare.com
-  twitter: fur # twitter username without the @ symbol
+  twitter: fur
   phone: "+1 23456789"
 social:
   name: Fur Template
   links:
-    - https://github.com/CloudCannon/fur-jekyll-template
-
-# -----
-# Build
-timezone: Etc/UTC
-
-collections:
-  staff_members:
-    _hide_content: true
-    _icon: account_circle
-  products:
-    _hide_content: true
-    output: true
-    _icon: shopping_cart
-
+  - https://github.com/CloudCannon/fur-jekyll-template
 permalink: pretty
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "products"
-    values:
-      layout: "product"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "index.html"
-    values:
-      layout: "default"
-
 jekyll-archives:
   enabled:
-    - categories
-
+  - categories
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
+- jekyll-sitemap
+- jekyll-seo-tag
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-
-# -----------
-# CloudCannon
-
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENCE
 garment_types:
-  - hat
-  - top
-
+- hat
+- top
 social_icons:
-  - Email
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
+- Email
+- Facebook
+- Google Plus
+- Instagram
+- LinkedIn
+- Pinterest
+- Tumblr
+- Twitter
+- YouTube
+- RSS
 _comments:
   map: Update the map location and display settings.
   latitude: Coordinates for the center marker on the map.
