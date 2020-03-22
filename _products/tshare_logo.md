@@ -10,7 +10,8 @@ description_markdown: >-
 garment_type:
 price: '9.00'
 garment_type: top
-sku:
+sku: tshare
+stock: 10
 description:
 sizes:
   - XS
