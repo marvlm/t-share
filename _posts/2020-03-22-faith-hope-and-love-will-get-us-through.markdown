@@ -2,6 +2,7 @@
 title: FAITH HOPE & LOVE WILL GET US THROUGH
 date: 2020-03-22 20:01:00 +01:00
 permalink: "/posts/faith-hope"
+name: FAITH HOPE & LOVE WILL GET US THROUGH
 ---
 
 Please Help Us Support Global Citizen Fund + Provide Assistance To Ending The Pandemic.
