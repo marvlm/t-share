@@ -1,6 +1,6 @@
 ---
 title: T-share
-timezone: Etc/UTC
+timezone: Europe/Madrid
 collections:
   posts:
     title: Posts
