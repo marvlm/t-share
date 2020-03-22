@@ -1,17 +1,18 @@
 ---
-name:
+name: 
 garment_type: top
-price:
-sku:
-description:
+price: 
+sku: 
+description: 
 sizes:
-  - XS
-  - Small
-  - Medium
-  - Large
-  - XL
+- XS
+- Small
+- Medium
+- Large
+- XL
 styles:
-  - name:
-    color:
-    image:
+- name: 
+  color: 
+  image: 
 ---
+
