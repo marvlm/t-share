@@ -5,12 +5,10 @@ description_markdown: "Buy our logo tshirt and you will be helping with our goal
   rise KKKK thousand euros for Acme foundation (ONG) \n\n\nSlim Fit, 5oz 100% Cotton
   T-Shirt."
 garment_type: top
-sku: tshare
-stock: 10
-description:
-price: 9
 sku: 
+stock: 10
 description: 
+price: 9
 sizes:
 - XS
 - Small
