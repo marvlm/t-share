@@ -2,6 +2,9 @@
 title: T-share
 timezone: Europe/Madrid
 collections:
+  navigation:
+    title: Navigation
+    output: true
   posts:
     title: Posts
     output: true
