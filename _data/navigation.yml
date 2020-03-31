@@ -1,10 +1,10 @@
-- name: Productos
+- name: Tienda
   link: /
   new_window: false
   highlight: false
-- name: Nuestra historia
-  link: /about/
-  new_window: false
+- name: Blog
+  link: https://tshare.digitalpress.blog/
+  new_window: true
   highlight: false
 - name: Contacto
   link: /contact/
